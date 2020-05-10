@@ -30,7 +30,7 @@ ISR(TIMER2_COMPA_vect) { //Display Service
 void setup() {
   init_display();
   Set_timer_2();
-  Serial.begin(19200);
+  Serial.begin(19200); // 3.3v 8Mhz coding arduino uno which means 9600 bouad rate 
 
   display_number(s);
 
